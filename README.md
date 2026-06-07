@@ -48,6 +48,11 @@ My philosophy: *First Principles Thinking · Fail-Safe Architecture · Determini
 rule-based validation for container placement, pairing, and 
 weight/stability checks. Python + Tkinter + Pandas + PDFPlumber.
 
+- **[Jungle Gems — Match-3](https://github.com/bydecom/Match-3)** — 
+Data-driven level engine (JSON → unlimited board layouts), 
+board facade separating Matcher/Powerups/Input/State modules, 
+event-driven GameScene/UIScene decoupling. Phaser 3 + Vite.
+
 ---
 
 ### 📫 Let's Connect

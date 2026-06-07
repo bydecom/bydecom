@@ -41,7 +41,7 @@ My philosophy: *First Principles Thinking · Fail-Safe Architecture · Determini
 
 - **[Conversational State Machine](https://github.com/bydecom/conversational-state-machine):** Reverse-engineered enterprise dialog management (slot filling, context switching, hold/resume queue) from black-box logs and rebuilt it on an LLM-native stack. Modeled four complex interruption policies as deterministic stack operations on a single serializable `ContextObject`.
 
-- **[E-Commerce Platform](https://github.com/bydecom/e-commerce-project):** Production-grade full-stack platform: Redis distributed locks for race conditions, PM2 zero-downtime cluster, self-healing DLQ, CI/CD with auto rollback. 132+ deployments.
+- **[E-Commerce Platform](https://github.com/bydecom/e-commerce-project):** Production full-stack system bridging resilient backend with deterministic AI agents. Features dual-role copilots (conversational analytics, async feedback classification, autonomous UI navigation) backed by Redis distributed locks for race conditions, PM2 zero-downtime cluster, self-healing DLQ, CI/CD with auto rollback. 132+ deployments.
 
 - **Container Bay Plan Validator *(private - logistics client)*:** 6-digit LOC code parsing, 2D/3D bay layout reconstruction, rule-based validation for container placement, pairing, and weight/stability checks. Python + Tkinter + Pandas + PDFPlumber.
 

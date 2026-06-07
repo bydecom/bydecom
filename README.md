@@ -39,7 +39,7 @@ My philosophy: *First Principles Thinking · Fail-Safe Architecture · Determini
 
 - **[Medical Citation Agent](https://github.com/bydecom/medical-citation-agent):** Deterministic FDA label extraction: Regex + scispacy NER, zero LLM in the extraction path. 100% citation precision, verifiable line-level citations.
 
-- **[Conversational State Machine](https://github.com/bydecom/conversational-state-machine):** Enterprise dialog management (slot filling, context switching, hold/resume queue) on an LLM-native stack. Four interruption policies modeled as stack operations on a single serializable `ContextObject`.
+- **[Conversational State Machine](https://github.com/bydecom/conversational-state-machine):** Reverse-engineered enterprise dialog management (slot filling, context switching, hold/resume queue) from black-box logs and rebuilt it on an LLM-native stack. Modeled four complex interruption policies as deterministic stack operations on a single serializable `ContextObject`.
 
 - **[E-Commerce Platform](https://github.com/bydecom/e-commerce-project):** Production-grade full-stack platform: Redis distributed locks for race conditions, PM2 zero-downtime cluster, self-healing DLQ, CI/CD with auto rollback. 132+ deployments.
 

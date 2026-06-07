@@ -35,23 +35,17 @@ My philosophy: *First Principles Thinking · Fail-Safe Architecture · Determini
 
 *Each repo includes a deep-dive architecture report and honest benchmarks.*
 
-- **[GraphRAG-Code](https://github.com/bydecom/graphrag-code)** — ~90% token reduction using Tree-sitter (AST) + Bidirectional Personalized PageRank (`rustworkx`). Exposed as an MCP Server for Cursor / Claude Desktop.
+- **[GraphRAG-Code](https://github.com/bydecom/graphrag-code):** ~90% token reduction using Tree-sitter (AST) + Bidirectional Personalized PageRank (`rustworkx`). Exposed as an MCP Server for Cursor / Claude Desktop.
 
-- **[Medical Citation Agent](https://github.com/bydecom/medical-citation-agent)** — Deterministic FDA label extraction: Regex + scispacy NER, zero LLM in the extraction path. 100% citation precision, verifiable line-level citations.
+- **[Medical Citation Agent](https://github.com/bydecom/medical-citation-agent):** Deterministic FDA label extraction: Regex + scispacy NER, zero LLM in the extraction path. 100% citation precision, verifiable line-level citations.
 
-- **[Conversational State Machine](https://github.com/bydecom/conversational-state-machine)** — Enterprise dialog management (slot filling, context switching, hold/resume queue) on an LLM-native stack. Four interruption policies modeled as stack operations on a single serializable `ContextObject`.
+- **[Conversational State Machine](https://github.com/bydecom/conversational-state-machine):** Enterprise dialog management (slot filling, context switching, hold/resume queue) on an LLM-native stack. Four interruption policies modeled as stack operations on a single serializable `ContextObject`.
 
-- **[E-Commerce Platform](https://github.com/bydecom/e-commerce-project)** — Production-grade full-stack platform: Redis distributed locks for race conditions, PM2 zero-downtime cluster, self-healing DLQ, CI/CD with auto rollback. 132+ deployments.
+- **[E-Commerce Platform](https://github.com/bydecom/e-commerce-project):** Production-grade full-stack platform: Redis distributed locks for race conditions, PM2 zero-downtime cluster, self-healing DLQ, CI/CD with auto rollback. 132+ deployments.
 
-- **Container Bay Plan Validator** *(private — logistics client)* — 
-6-digit LOC code parsing, 2D/3D bay layout reconstruction, 
-rule-based validation for container placement, pairing, and 
-weight/stability checks. Python + Tkinter + Pandas + PDFPlumber.
+- **Container Bay Plan Validator *(private - logistics client)*:** 6-digit LOC code parsing, 2D/3D bay layout reconstruction, rule-based validation for container placement, pairing, and weight/stability checks. Python + Tkinter + Pandas + PDFPlumber.
 
-- **[Jungle Gems — Match-3](https://github.com/bydecom/Match-3)** — 
-Data-driven level engine (JSON → unlimited board layouts), 
-board facade separating Matcher/Powerups/Input/State modules, 
-event-driven GameScene/UIScene decoupling. Phaser 3 + Vite.
+- **[Jungle Gems — Match-3](https://github.com/bydecom/Match-3):** Data-driven level engine (JSON → unlimited board layouts), board facade separating Matcher/Powerups/Input/State modules,  event-driven GameScene/UIScene decoupling. Phaser 3 + Vite.
 
 ---
 

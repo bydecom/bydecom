@@ -43,7 +43,7 @@ My philosophy: *First Principles Thinking · Fail-Safe Architecture · Determini
 
 - **[E-Commerce Platform](https://github.com/bydecom/e-commerce-project):** Production full-stack system bridging resilient backend with deterministic AI agents. Features dual-role copilots (conversational analytics, async feedback classification, autonomous UI navigation) backed by Redis distributed locks for race conditions, PM2 zero-downtime cluster, self-healing DLQ, CI/CD with auto rollback. 132+ deployments.
 
-- **Container Bay Plan Validator *(private - logistics client)*:** 6-digit LOC code parsing, 2D/3D bay layout reconstruction, rule-based validation for container placement, pairing, and weight/stability checks. Python + Tkinter + Pandas + PDFPlumber.
+- **[Container Bay Plan Validator](https://github.com/bydecom/container-bay-plan-validator/tree/main) *(private - logistics client)*:** 6-digit LOC code parsing, 2D/3D bay layout reconstruction, rule-based validation for container placement, pairing, and weight/stability checks. Python + Tkinter + Pandas + PDFPlumber.
 
 - **[Jungle Gems — Match-3](https://github.com/bydecom/Match-3):** Data-driven level engine (JSON → unlimited board layouts), board facade separating Matcher/Powerups/Input/State modules,  event-driven GameScene/UIScene decoupling. Phaser 3 + Vite.
 
